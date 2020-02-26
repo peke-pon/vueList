@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
   padding: 16px 48px;
   padding-bottom: 32px;
-  background: #f6f6f9;
+  background: #f3f3f3;
 }
 
 .pageTitle {
@@ -98,8 +98,11 @@ img {
 
 .item .shipping-fee.none {
   background: #fc4d50;
+  opacity: 0.9;
   font-size: 12px;
   letter-spacing: 1px;
   color: #fff;
   padding: 0.5em;
 }
+
+[v-cloak] { display: none }
