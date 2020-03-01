@@ -18,21 +18,21 @@ const app = new Vue({
     // jsonpエラー
     jsonError: false
   },
-  created: function() {
-    $.ajax({
-      url: "https://peke-pon.github.io/vueList/products.js",
-      type: "GET",
-      dataType: "jsonp",
-      jsonp: "callback",
-      jsonpCallback: "products"
-    })
-      .done((data, status, XHR) => {
-        this.products = data;
-      })
-      .fail((XHR, Status, error) => {
-        this.jsonError = true
-      })
-  },
+  // created: function() {
+  //   $.ajax({
+  //     url: "https://peke-pon.github.io/vueList/products.js",
+  //     type: "GET",
+  //     dataType: "jsonp",
+  //     jsonp: "callback",
+  //     jsonpCallback: "products"
+  //   })
+  //     .done((data, status, XHR) => {
+  //       this.products = data;
+  //     })
+  //     .fail((XHR, Status, error) => {
+  //       this.jsonError = true
+  //     })
+  // },
   computed: {
     filterdList: function() {
       let newList = [];
