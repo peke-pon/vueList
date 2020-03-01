@@ -20,7 +20,7 @@ const app = new Vue({
   },
   created: function() {
     $.ajax({
-      url: "http://localhost:8888/products.js",
+      url: "https://peke-pon.github.io/vueList/products.js",
       type: "GET",
       dataType: "jsonp",
       jsonp: "callback",
