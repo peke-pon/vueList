@@ -4,7 +4,7 @@
 
 ## View
 
-![](https://i.imgur.com/sj5t8Ff.png)
+![](https://i.imgur.com/wpzPz3z.png)
 
 ## App.vue
 
